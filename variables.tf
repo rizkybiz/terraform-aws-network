@@ -2,6 +2,10 @@ variable "prefix" {
   description = "Unique prefix to apply that will be prepended to tags for various resources"
 }
 
+variable "region" {
+  description = "The AWS region to deploy to"
+}
+
 variable "environment" {
   description = "The environment being deployed (dev, qa, pre-prod, prod)"
 }
